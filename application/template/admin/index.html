@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_ADD}admin/index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="headerlogo">
+            <a href="http://localhost/study/mvc/index.php/index/index"  target="_blank">
+                <img src="{IMG_ADD}logo.png" alt="" class="img">
+            </a>
+        </div>
+        <div class="logininfo">
+            <span>{$user}</span>
+            <span>
+                <a href="/study/mvc/index.php/admin/index/logout">退出登录</a>
+            </span>
+        </div>
+    </div>
+    <div class="main">
+        <div class="left">
+            <ul>
+                <li>
+                    <h3>用户管理</h3>
+                    <ul class="son">
+                        <li>
+                            <a href="adduser" target="main">添加用户</a></li>
+                        <li>
+                            <a href="edituser" target="main">修改用户</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>栏目管理</h3>
+                    <ul class="son">
+                        <li><a href="/study/mvc/index.php/admin/category/" target="main">添加栏目</a></li>
+                        <li><a href="/study/mvc/index.php/admin/category/edit" target="main">修改栏目</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>内容管理</h3>
+                    <ul class="son">
+                        <li><a href="/study/mvc/index.php/admin/content/" target="main">查看内容</a></li>
+                        <li><a href="/study/mvc/index.php/admin/content/edit" target="main">修改内容</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <iframe src="" frameborder="0" name="main"></iframe>
+        </div>
+    </div>
+    <div class="bottom">
+        <span>衡源金属后台管理</span>
+    </div>
+</body>
+</html>

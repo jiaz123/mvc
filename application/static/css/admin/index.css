@@ -1,0 +1,70 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+a{text-decoration:none}
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    min-height: 15%;
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.goodq.top/caches/3ca69b90d929ab5db370a99817545413/aHR0cDovL3d3dy5kZy1oZW5neXVhbi5jb20vcWZ5LWNvbnRlbnQvdXBsb2Fkcy8yMDIwLzA2LzFlZDYxN2UwMTg0YWE2NWQ3OGI3ODIyYjJmNmVmMzdkLmpwZw_p_p100_p_3D_p_p100_p_3D.jpg");
+    background-size: cover;
+    background-position: center top;
+}
+.headerlogo{
+    width:225.79px;
+    height:54px;
+    float: left;
+}
+.header img{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.logininfo{
+    margin-top: 70px;
+    float: right;
+    margin-right: 30px;
+}
+.main{
+    width: 100%;
+    height: 80%;
+}
+.bottom{
+    width: 100%;
+    min-height: 10%;
+    text-align: center;
+    position: relative;
+}
+.bottom span{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+}
+.left{
+    width: 15%;
+    height: 100%;
+    border-right: 5px solid #000;
+    float: left;
+    box-sizing: border-box;
+}
+.right{
+    width: 85%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}

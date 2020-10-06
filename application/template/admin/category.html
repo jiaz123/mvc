@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_ADD}admin/bootstrap.min.css">
+    <link rel="stylesheet" href="{CSS_ADD}admin/category.css">
+    <script src="{JS_ADD}jquery-3.5.1.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <form action="/study/mvc/index.php/admin/category/add" style="margin-top: 30px;border-bottom: 30px" method="post">
+        <input type="text" placeholder="添加一级栏目" name="cname">
+        <input type="submit" value="添加">
+    </form>
+    {if $data}
+    <table class="table table-bordered table-striped">
+        {$data}
+    </table>
+    {else}
+    <table>
+        <tr>
+            <td>
+                没有数据
+            </td>
+        </tr>
+    </table>
+    {/if}
+</div>
+<div class="pannel addpannel">
+    <div class="close">
+        X
+    </div>
+    <form action="/study/mvc/index.php/admin/category/add" method="post">
+        <input type="text" name="cname">
+        <input type="hidden" name="cid">
+        <input type="submit" value="提交">
+    </form>
+</div>
+<div class="pannel editpannel">
+    <div class="close">
+        X
+    </div>
+    <form action="/study/mvc/index.php/admin/category/add" method="post">
+        <input type="text" name="cname">
+        <select name="pid" id="opts">
+
+        </select>
+        <input type="button" value="修改" >
+    </form>
+</div>
+<script src="{JS_ADD}admin/category.js"></script>
+</body>
+</html>

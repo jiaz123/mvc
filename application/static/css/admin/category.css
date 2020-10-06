@@ -1,0 +1,10 @@
+.pannel{
+    width: 40%;height: 30%;
+    background: #fff;
+    box-shadow: 0 0 4px #000;
+    position: absolute;
+    left: 0;
+    right: 0;top: 20%;bottom: 0;margin: auto;
+    z-index: 1;
+    display: none;
+}
